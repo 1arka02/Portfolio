@@ -39,6 +39,7 @@
     .playlist-card{
         margin-left: 0;
         margin-right: 0;
+        height:auto;
     }
     .visit{
         position: static;
@@ -52,7 +53,7 @@
     }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 751px) {
     .playlists {
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 30px;
@@ -60,6 +61,9 @@
     
     .follow-btn-container {
         margin-left: 20px;
+    }
+    .playlist-card{
+       height:500px;
     }
 }
 
@@ -73,7 +77,7 @@
 .playlist-card {
     position: relative;
     width: 400px;
-    /* max-height: 500px; */
+    /* height: 500px; */
     background-color: #fff;
     margin-top: 10px;
     margin-left: 20px;
