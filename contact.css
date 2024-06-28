@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contact-me {
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    width: 100%; 
+    padding: 0;
+     background-image: url("https://imgs.search.brave.com/aDaKr-KTE3t3h6DsphR6TL8ZKIEh89Mo73vKpq2RP-4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hcmNo/aXZlLnNtYXNoaW5n/Lm1lZGlhL2Fzc2V0/cy8zNDRkYmY4OC1m/ZGY5LTQyYmItYWRi/NC00NmYwMWVlZGQ2/MjkvY2MwOGY0NTAt/Zjk3ZC00MjBkLWFl/Y2YtNjJkNDhkYTRk/ZmVkL25hdHVyZS13/YWxscGFwZXIxLmpw/Zw");
+     background-size: cover; 
+     box-shadow: 5px 5px 5px 5px rgb(180, 170, 170);
+     border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #4cae4c;
+}
+@media(max-width: 800px) {
+    .contact-form{
+        width: 300px;
+    }
+} 

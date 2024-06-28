@@ -1,0 +1,118 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-row: 800px 800px 800px;
+    grid-gap:60px;
+}
+.playlist-card1{
+ grid-area: 1 / 1/span 1/span 2;
+}
+.playlist-card2{
+grid-area: 1 / 3/span 1/span 1;
+}
+.playlist-card3{
+    grid-area: 2 / 1/span 1/span 1;
+}
+.playlist-card4{
+    grid-area: 2 / 2/span 1/span 1;
+}
+.playlist-card5{
+    grid-area: 2 / 3/span 2/ span 1;
+}
+.playlist-card6{
+    grid-area: 3 / 1 /span 1 / span 2;
+}
+.playlist-card1,.playlist-card2,.playlist-card3,.playlist-card4,.playlist-card5,.playlist-card6 {
+
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.playlist-card1:hover,.playlist-card2:hover,.playlist-card3:hover,.playlist-card4:hover,.playlist-card5:hover,.playlist-card6:hover {
+    transform: translateY(-10px);
+    opacity: 0.5;
+}
+
+.playlist-card1 img,.playlist-card2 img,.playlist-card3 img,.playlist-card4 img,.playlist-card5 img,.playlist-card6 img {
+    width: 100%;
+    height: 250px;
+}
+
+.playlist-card1 .info,.playlist-card2 .info,.playlist-card3 .info,.playlist-card4 .info,.playlist-card5 .info,.playlist-card6 .info {
+    padding: 15px;
+    background-color: white;
+}
+
+.playlist-card1 .info h3,.playlist-card2 .info h3,.playlist-card3 .info h3,.playlist-card4 .info h3,.playlist-card5 .info h3,.playlist-card6 .info h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #343a40;
+}
+
+.playlist-card1 .info p,.playlist-card2 .info p,.playlist-card3 .info p,.playlist-card4 .info p,.playlist-card5 .info p,.playlist-card6 .info p {
+    margin: 0 0 10px;
+    font-size: 1em;
+    color: grey;
+}
+.playlist-card1{
+    display: flex;
+    flex-wrap: row;
+}
+.playlist-card1 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.playlist-card1 img{
+    height: 400px;
+}
+.playlist-card1 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.playlist-card5 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.playlist-card5 img{
+    height: 300px;
+    margin-bottom: 30px;
+}
+.playlist-card5 .image p{
+    font-weight: bold;
+    font-size: 30px;
+}
+.playlist-card6{
+    display: flex;
+    flex-wrap: row;
+}
+.playlist-card6 .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+.playlist-card6 img{
+  max-width: 500px;
+  height: 100%;
+}
+.playlist-card6 .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
