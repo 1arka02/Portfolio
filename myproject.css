@@ -1,5 +1,6 @@
 .featured-playlists {
     padding: 50px;
+    margin-top: 120px;
 }
 .visit{
     bottom: 40px;
@@ -35,7 +36,13 @@
         row-gap: 30px;
         margin-left: 40px;
     }
-
+    .playlist-card{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .visit{
+        position: static;
+    }
     .follow-btn-container h2 {
         margin-left: 30px;
     }
@@ -50,7 +57,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         row-gap: 30px;
     }
-
+    
     .follow-btn-container {
         margin-left: 20px;
     }
@@ -66,7 +73,7 @@
 .playlist-card {
     position: relative;
     width: 400px;
-    height: 500px;
+    /* max-height: 500px; */
     background-color: #fff;
     margin-top: 10px;
     margin-left: 20px;
